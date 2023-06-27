@@ -94,9 +94,9 @@ export default function Players() {
                 </div>
             ))}
 
-            <div id="popup" className="overlay">
+            <div id="popup1" className="overlay">
                 <div className="popup">
-                    <img src={player.img} />
+                    <img src={player.img} alt="" />
                     <h2>{player.name}</h2>
                     <a className="close" href="#">&times;</a>
                     <div className="content">

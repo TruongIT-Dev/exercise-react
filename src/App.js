@@ -8,8 +8,8 @@ function App() {
   return (
     <div className='App'>
       <Navigation />
-      {/* <Players />Players đang bị lỗi và không biết sửa bài này :( */}
-      <Main />
+      <Players />
+      {/* <Main /> */}
       <Footer />
     </div>
   )
