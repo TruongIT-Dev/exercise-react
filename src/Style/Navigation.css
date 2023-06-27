@@ -1,0 +1,33 @@
+.nav {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+li a:hover {
+    background-color: rgb(151, 151, 6);
+}
+
+.row {
+    margin: 10px;
+}

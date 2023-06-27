@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Chia thành 3 cột có độ rộng bằng nhau */
+    grid-template-rows: auto auto;
+    /* Các hàng tự động co dãn theo nội dung */
+    gap: 10px;
+    /* Khoảng cách giữa các thẻ div */
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.detail-button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
