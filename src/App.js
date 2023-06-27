@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <Navigation />
-      {/* <Players /> */}
+      {/* <Players />Players đang bị lỗi và không biết sửa bài này :( */}
       <Main />
       <Footer />
     </div>
