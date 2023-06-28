@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import '../Style/Players.css';
 import { ListPlayers } from "../Shared/ListOfPlayers";
+import { Link } from 'react-router-dom';
+
 
 import { useState } from "react";
 // export default class Players extends Component {
@@ -89,7 +91,11 @@ export default function Players() {
                         <img src={player.img} alt="" />
                         <h3>{player.name}</h3>
                         <p className='title'></p>
-                        <p><button className="detail-button" onClick={() => { setPlayer(player) }}><a href="#popup1" id="openPopUp">Detail</a></button></p>
+                        {/* <p><button className="detail-button" onClick={() => { setPlayer(player) }}><a href="#popup1" id="openPopUp">Detail</a></button></p> */}
+                        <Link to={`detail/${player.id}`}>
+                            <p><button className="detail-button">Detail</button></p>
+                        </Link>
+
                     </div>
                 </div>
             ))}
