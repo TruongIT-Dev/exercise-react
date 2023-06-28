@@ -1,5 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
+import { ListPlayers } from '../Shared/ListOfPlayers'
+
+
+
 export default function PlayersPresentation({ players }) {
     //console.log(players);
     const [player, setPlayer] = useState([])

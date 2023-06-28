@@ -4,6 +4,10 @@ import Players from './Components/Players';
 import Footer from './Components/Footer';
 import Main from './Components/Main';
 import Detail from './Components/Detail';
+import PlayersPresentation from './Components/PlayersPresentation';
+
+
+
 import {
   Routes,
   Route,

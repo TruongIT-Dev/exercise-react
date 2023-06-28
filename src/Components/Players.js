@@ -3,6 +3,7 @@ import '../Style/Players.css';
 import { ListPlayers } from "../Shared/ListOfPlayers";
 import { Link } from 'react-router-dom';
 
+import { Icon, CardTitle, Row, Col, Card, Container } from 'react-materialize';
 
 import { useState } from "react";
 // export default class Players extends Component {
@@ -85,11 +86,13 @@ export default function Players() {
 
     return (
         <div className='container'>
+            {/* <Container> */}
+            {/* <Row> */}
             {ListPlayers.map((player) => (
                 <div className='column' key={player.id}>
                     <div className='card'>
                         <img src={player.img} alt="" />
-                        <h3>{player.name}</h3>
+                        <h3 className="Player-name">{player.name}</h3>
                         <p className='title'></p>
                         {/* <p><button className="detail-button" onClick={() => { setPlayer(player) }}><a href="#popup1" id="openPopUp">Detail</a></button></p> */}
                         <Link to={`detail/${player.id}`}>
@@ -111,7 +114,8 @@ export default function Players() {
                 </div>
 
             </div>
-
+            {/* </Row> */}
+            {/* </Container> */}
         </div>
 
     )
