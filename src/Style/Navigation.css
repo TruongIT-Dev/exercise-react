@@ -1,3 +1,4 @@
+/* 
 .nav {
     background-color: black;
 }
@@ -7,7 +8,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: #333; */
 }
 
 li {
@@ -19,7 +19,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: aliceblue;
+    color: green;
 }
 
 
@@ -30,4 +30,12 @@ li a:hover {
 
 .row {
     margin: 10px;
+} */
+/*************************************************************************************************************************/
+.menu {
+    background-color: darkblue;
+}
+
+.hide-on-med-and-down-right {
+    margin-right: 100px;
 }
